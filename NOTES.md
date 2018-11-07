@@ -78,7 +78,7 @@ becomes...
 ```
 
 ## If duplicate children tags are present, the object's member is converted to an array.
-```javascript
+```xml
 <entry>
 [...]
 <r_ele>
