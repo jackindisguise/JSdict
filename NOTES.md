@@ -17,7 +17,7 @@
 
 becomes...
 
-```javascript
+```json
   {
    "ent_seq": "1000000",
    "r_ele": [
@@ -36,7 +36,7 @@ becomes...
 ```
 
 ## Dictionary array is kept in "dictionary" field of root JSON file.
-```javascript
+```json
 {
  "dictionary": [
   [...]
@@ -52,7 +52,7 @@ becomes...
 
 becomes...
 
-```javascript
+```json
 {
  "ent_seq": "1000000",
 ```
@@ -68,7 +68,7 @@ becomes...
 ```
 becomes...
 
-```javascript
+```json
 {
  [...]
    "sense": {
@@ -93,7 +93,7 @@ becomes...
 
 becomes...
 
-```javascript
+```json
 {
  [...]
  "r_ele": [
@@ -121,7 +121,7 @@ becomes...
 
 becomes
 
-```javascript
+```json
    "r_ele": [
     {
      "reb": "あかん"
@@ -142,7 +142,7 @@ Because there's really no 1:1 way to represent a tag with attributes and a body 
 
 becomes...
 
-```javascript
+```json
      "lsource": {
       "lang": "por",
       "body": "espada"
@@ -161,7 +161,7 @@ In JMdict, entities are used to allow compact descriptions of words while also a
 
 becomes...
 
-```javascript
+```json
    "sense": {
     "pos": "&n;",
     "gloss": "food"
